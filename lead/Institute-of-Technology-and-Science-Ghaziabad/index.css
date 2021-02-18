@@ -1,0 +1,242 @@
+*{
+    margin: 0px;
+    padding: 0px;
+font-family: 'Titillium Web', sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+.form-margin{
+			margin-top:-380px !important;
+		}
+		.form-inq{
+	padding: 0px;
+    margin: 0px;
+    margin-top: 0px;
+    line-height: 15px;
+	z-index:999 !important;
+		}
+	.form-group {
+    margin-bottom: 3.5px !important;
+}
+.form-check-input {
+   margin-top: 0.0rem !important;
+   }
+.nv-bg{
+	background-color:#063352;
+	padding:0px;
+	}
+.navbar-dark .navbar-toggler {
+  background-color:#989898;
+}
+	.nav-item a{
+	color:white !important;
+	font-weight:bold;
+}
+ .nav-item  {
+    padding:5px 19px 5px;
+    background-color: #FF811A;
+    border-radius:5px;
+	color:white;
+	margin:4px;
+}
+.background{
+ width: 100%;
+	 height:auto;
+  background-image: url('images/ab-tt.jpg');
+  background-size: 100%;	
+}
+.ABOUT{
+		padding-top:30px;
+	text-align:center;
+	color:#ff811a;
+	    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.LIFE{
+	padding:10px;
+text-align:center;
+	color:#ff811a;
+	    font-size: 25px;
+    font-weight: bold;	
+}
+.Admissions{
+padding:10px;
+text-align:center;
+	color:#ff811a;
+	    font-size: 25px;
+    font-weight: bold;	
+}
+.Placement{
+padding:10px;
+text-align:center;
+	color:#ff811a;
+	    font-size: 25px;
+    font-weight: bold;	
+}
+.themecolor{
+		padding:10px;
+	color:#ffd2d2;
+	    font-size: 25px;
+    font-weight: bold;
+	}
+
+.service-one{
+	 width: 100%;
+	 height:100%;
+  background-image: url('images/img18.jpg');
+  background-size: 100%;
+ }
+.service-one__title{
+	color:white;
+	background-color:#ff811a;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 26px 4px 26px;
+	text-align:center;
+}
+.service-one__title span{
+	font-size: 12px;
+    font-weight: bold;
+	padding:0px;
+	text-align:center;
+	}
+.Recruiters{
+padding:10px;
+text-align:center;
+	color:#ff811a;
+	    font-size: 25px;
+    font-weight: bold;	
+}
+.Rets img{
+	margin:5px;
+	padding:10px 0px 10px;
+	background-color:white;
+}
+.abcdef img{
+	height:65vh !important;
+	width:100%;
+}
+.col-img-admission1 img{
+	height:35vh!important;
+	width:100%;
+}
+
+
+@media only screen and (max-width: 1200px) {
+ .nav-item  {
+    padding:0px;	
+	}
+	}
+
+	@media only screen and (max-width: 1095px) {
+.form-margin{
+			margin-top:-350px !important;
+			padding:0px;
+		}
+			.form-group {
+    margin-bottom: 1px !important;
+}
+	}
+	
+@media only screen and (max-width: 800px) {
+.paragraph{
+	font-size:15px !important;
+	  word-break: break-all;
+}
+.Admissions{
+	padding:5px;
+	margin-top:-50px;
+}	
+.LIFE {
+padding:5px;
+	margin-top:-50px;	
+}
+.Placement{
+padding:5px;
+	margin-top:-50px;
+}
+.Recruiters {
+padding:5px;
+	margin-top:-20px;	
+}
+	}
+	
+	@media only screen and (max-width: 992px) {    
+	.form-margin{
+			margin-top:0px !important;
+			padding:0px;
+		}
+			.form-group {
+    margin-bottom: 5px !important;
+    }
+.ABOUT {
+    padding-top: 0px;
+}		
+	}
+	
+@media only screen and (max-width: 575px) {
+	.navbar-dark .navbar-toggler {
+  background-color:#F8A32A;
+  margin-top:-60px;
+}
+.abcdef img{
+	height:25vh!important;
+	width:100%;
+}
+.img-Placement img{
+height:25vh!important;
+	width:100%;
+}
+.col-img-admission1 img{
+	height:20vh!important;
+	width:100%;
+}
+.paragraph {
+    font-size: 12px !important;
+    word-break: break-all;
+    line-height: 17px;
+}
+.Placement{
+	font-size:20px;
+}
+.LIFE{
+font-size:20px;	
+}
+.Admissions{
+font-size:20px;		
+}
+.ABOUT{
+font-size:20px;	
+}
+.themecolor{
+	color:white;
+	font-size:20px;		
+}
+.Recruiters{
+font-size:20px;		
+}
+
+.img1 img{
+	margin-right:30px;
+}
+.service-one__title{
+	font-size:15px;		
+}
+.col-form-resgt{
+	background-color:#bd1d1d !important;
+}	
+}
+
+.life .col-md-4
+{
+	padding:0;
+}
+
+.life .col-md-4 img
+{
+	width: 100%;
+	height: 100%;
+}

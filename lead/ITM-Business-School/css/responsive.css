@@ -1,0 +1,102 @@
+/* MAX 1024px */
+@media only screen and (max-width: 1024px){
+#inner { padding-left: 15px; padding-right: 15px;}
+#hero.container-fluid, #hero.container-fluid .row { padding-left: 0px; padding-right: 0px; margin-right: 0px; margin-left: 0px; }
+.sec8Head .resp-tabs-row .resp-tabs-item { right: 0px; }
+.header .navbar-default .navbar-nav>li>a { padding: 0px 6px; }
+.bc-img01 { background-size: 100%; }
+}
+
+@media only screen and (max-width: 980px){
+
+
+}
+
+@media only screen and (max-width: 736px){
+.header .navbar-default .navbar-nav>li>a:hover { background-color: #a2345b; color: #FFF !important;}	
+.header .navbar-default .navbar-brand>img { padding: 0px 20px; }
+.header .nbaBlock { display: none; }
+.header .navbar-collapse { padding-right: 0; padding-left: 0; margin-right: 0; margin-left: 0; }
+.header .navbar-default .navbar-nav { margin-top: 0; margin-left: 0;}
+.header .navbar-default .navbar-nav>li>a { padding: 8px 6px; background-color: #000; color: #FFF; border-bottom: 1px solid #FFF;}	
+.sec4, .testimonialBox { display: block; float: left; }
+.dsu-addmission .fifteen-logo, .sec2:before, .sec2:after, .sec3:after, .sec6:after, .testimonialBox:after { display: none; }
+.dsu-addmission { margin-top: 10px; display: block; text-align: center; }
+.dsu-intro .leftsec_content { width: 100%; }
+.dsu-intro .col-sm-5 { width: 100%; }
+.dsu-intro .applyBox { float: none; margin: 15px auto 0; }
+.bc-img01 { background-size: cover; height: 642px; }
+.sec7 .counting-flex { margin-top: 0px; }
+.sec7, .sec3 { padding: 0px 0; }
+.sec7 .counting-item { flex-basis: 32%; margin-top: 15px; }
+.sec2 { padding: 30px 0; }
+.sec2 .about-text-right { padding-left: 0; margin-top: 30px; padding-top: 30px; border-top: 1px solid #FFF; }
+.sec2 .about-text-left { padding-left: 0px; padding-right: 0px;}
+.sec2 .about-text-right ul { margin-left: 20px; }
+.sec5 .ranking-flex .ranking-item { flex-basis: 50%;height: 150px; border: 1px solid rgba(0,0,0,0.2); padding: 20px 0; }
+.sec5 .ranking-flex .ranking-item:last-child {flex-basis: 100%; }
+.resp-tabs-row .resp-tabs-img { display: none; }
+.sec8Head .resp-tabs-row .resp-tabs-item { width: 100%; position: relative; top: 0px; }
+.sec8 .sec8Head h2.resp-accordion { background-color: #000; color: #FFF; font-size: 16px; }
+.sec8Head #verticalTab .resp-tabs-container h2.resp-tab-active {
+    background: #6e707f;
+    color: #FFFFFF;
+}
+.sec8Head #verticalTab h2.resp-tab-active span.resp-arrow:before { color: #FFF !important; }
+.sec8Head .resp-arrow:after { color: #FFFFFF !important; }
+.sec3 .sec3area .recordsCollum { margin-top: 20px; }
+.sec4Head .text-center img { width: 100%; }
+.sec6Head .col-md-8 img { width: 100%; margin-top: 20px; }
+.sideNavi { right: 0px; top: auto; bottom: 0px; width: 100%; -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);}
+
+.sideNavi a {background-color: #a4365d; width: 100%; display: block; text-align: center; padding: 10px 10px; }
+.footer { height: 100px; }
+.scholarshipBox { background-image: none; }
+}
+
+@media only screen and (max-width: 667px){
+
+}
+
+@media only screen and (max-width: 568px){
+.banner-heading h1 { font-size: 35px; line-height: 35px; }
+#client-slider.owl-theme .owl-nav [class*=owl-] {     top: 30%; }
+
+   
+}
+@media only screen and (max-width: 480px){
+.banner-heading h1 { font-size: 30px; line-height: 30px;}
+.sec3 .sec3area .placementCollum { height: auto; }
+
+}
+
+@media only screen and (max-width: 414px){
+.placementCollum img { width: 100%; }
+.sec3 .sec3area .recordsCollum .highestContent { width: 100%; }
+.sec3 .sec3area .recordsCollum .highestContent:nth-child(1), .sec3 .sec3area .recordsCollum .highestContent:nth-child(3) { background-color: #a32e29; }
+.sec3 .sec3area .recordsCollum .highestContent:nth-child(2), .sec3 .sec3area .recordsCollum .highestContent:nth-child(4) { background-color: #e7e7e7; }
+.sec3 .sec3area .recordsCollum:last-child .highestContent:nth-child(2) h5, .sec3 .sec3area .recordsCollum:last-child .highestContent:nth-child(2) p { color: #000000 !important;}
+.sec3 .sec3area .recordsCollum .highestContent:nth-child(1) h5, .sec3 .sec3area .recordsCollum:last-child .highestContent:nth-child(1) p { color: #FFFFFF !important;}
+.banner-heading h1 { font-size: 24px; line-height: 30px;}
+.dsu-addmission p { font-size: 16px; line-height: 18px; }
+.sec7 .counting-item { flex-basis: 48%; margin-top: 15px;}
+.sec1 .scholarshipBox .scholarshipContent .fundedContent ul li span { width: 100%; }
+.sec1 .scholarshipBox .scholarshipContent .fundedContent ul li span i { display: none; }
+.scholarshipBox { padding: 20px; }
+.sec1 .scholarshipBox .scholarshipContent .fundedContent ul li {
+    padding: 8px 0;
+    display: table;
+    border-bottom: 1px solid #FFF;
+}
+
+}
+
+@media only screen and (max-width: 384px){
+.dsu-form, .applyBox { width: 100%; }
+.sec1 .scholarshipBox .scholarshipContent .applicationContent .appbtn a {     font-size: 14px; }
+}
+

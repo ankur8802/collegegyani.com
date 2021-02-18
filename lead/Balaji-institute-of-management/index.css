@@ -1,0 +1,342 @@
+*{
+    margin: 0px;
+    padding: 0px;
+	font-family: 'Arapey', serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+     body
+	 {
+		 overflow-x:hidden;
+	 }
+	 body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border:none;
+  background-color: #f1f1f1;
+}
+
+.col-form-resgt
+{
+	z-index: 9999;
+}
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: #ffffff57;
+  float: left;
+  width: 33.3%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 19px 10px;
+  transition: 0.3s;
+  font-size: 15px;
+  color:#610a0a;
+  font-weight:bold;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: red;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color:#60dc4ac4;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.tabcontent h3{
+color: #de2626d6;
+text-align:center;
+font-weight:bold;
+ }
+ .tabcontent{
+padding: 30px;
+    background-color: #000000d1;
+    color: #ffffff;
+ }
+     .scrollToLink{
+   	 color:black;
+	 font-weight:bold;
+	 padding:10px;
+     }
+     .scrollToLink a{
+      color:black!important;
+	  font-size:15px;
+	  margin-left:15px;
+      }
+	  
+	  .About{
+		  color: #962121;
+		font-weight:bold;
+		font-size:25px;
+		text-align:center;
+		padding:50px;
+	  }
+	  .INSTRUCTIONS{
+		color: #962121;
+		font-weight:bold;
+		font-size:25px;
+		text-align:center;
+		padding:15px;  
+	  }
+	  .col-intr ul li{
+		  color:black;
+	
+	  }
+	  .SOCIAL{
+		  color: #962121;
+		font-weight:bold;
+		font-size:25px;
+		text-align:center;
+		padding:15px;
+		}
+	  .TESTIMONIALS{
+		  color: #962121;
+		font-weight:bold;
+		font-size:25px;
+		text-align:center;
+		padding:15px;
+		  
+	  }
+	  .col-crl-img7 img{
+		  max-width:86%;
+		  max-height:75%;
+	  }
+	  .carousel-item strong{
+		  color:white;
+		font-family: 'Fredericka the Great', cursive;
+	  }
+
+	.ONE{
+		color:#fff7f7b8;
+		font-weight:bold;font-size:25px;
+		text-align:center;
+		padding:15px;
+	}
+	.col-img-footer img{
+    background-color:#f1f1f1;
+   max-width:100%;
+   padding:15px 5px 15px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+	}
+	
+	.Recruiters{  
+	  color: #962121;
+		font-weight:bold;
+		font-size:30px;
+		text-align:center;
+		padding:15px;
+	}
+
+.hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 12px solid #3e52b7;
+    max-width: 22%;
+    text-align: center;
+}
+	header {
+  position: relative;
+  height: 50vh;
+  min-height: 25rem;
+  width: 100%;
+
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+.form-margin{
+			margin-top:-400px !important;
+		}
+		.col-form-resgt{
+			padding:1%;
+			right:20px;
+			border-radius: 20px;
+			background-color:#f31313;
+		}
+		.form-inq{
+	padding: 0px;
+    margin: 0px;
+    margin-top: 0px;
+    line-height: 15px;
+	z-index:999 !important;
+		}
+	.form-group {
+    margin-bottom: 4.5px !important;
+}
+.form-check-input {
+   margin-top: 0.0rem !important;
+   }
+
+/*------------------------------------------------------------Media Quary--------------------------------------------------*/
+
+@media only screen and (max-width: 1168px) {
+	.scrollToLink a{
+      color:black!important;
+	  font-size:15px;
+	  margin-left:20px;
+      }
+.logo-1-1 img{
+	width:100%;
+}
+
+.tab {
+    overflow: hidden;
+    border: none;
+    background-color: #f1f1f1;
+    margin-top: -51px !important;
+}
+}
+ @media only screen and (max-width: 1131px) {
+.scrollToLink a{
+ font-size:13px;
+	  padding:0px;
+	  margin:0px;
+      }
+.logo-1-1 img{
+  width:60%!important;
+}
+}
+	
+@media only screen and (max-width: 996px) {
+.scrollToLink a{
+ font-size:10px;
+	  padding:0px;
+	  margin:0px;
+
+      }
+.logo-1-1 img{
+  width:60%!important;
+}
+	}
+
+@media only screen and (max-width: 992px) {
+.tab {
+    margin-top: -200px !important;
+}
+ .About{
+	font-size:18px;
+	  }
+	  .col-txt2{
+		  font-size:13px;
+	  }
+	  .ONE{
+		font-weight:bold;font-size:18px;
+	      }
+	 .SOCIAL{
+		font-size:18px;
+		}
+		.tabcontent h3{
+       font-size:18px;
+     }
+ .tabcontent{
+   font-size:13px;
+ }
+  .INSTRUCTIONS{
+		font-size:18px;  
+	  }
+.col-intr ul li{
+font-size:13px;	
+}
+
+ .TESTIMONIALS{
+font-size:18px;		
+	  }
+	  .About{
+		padding:0px;
+	  }
+	  .carousel-item strong{
+		  font-size:13px;
+	  }
+	  .form-margin{
+			margin-top:0px !important;
+		}
+		.col-form-resgt{
+			padding:1%;
+			right:0px;
+			border-radius: 0px;
+			background-color:#949191e8;
+		}
+		.form-inq{
+	padding: 0px;
+    margin: 0px;
+    margin-top: 0px;
+    line-height: 15px;
+	z-index:999 !important;
+		}
+	.form-group {
+    margin-bottom: 4.5px !important;
+}
+.form-check-input {
+   margin-top: 0.0rem !important;
+   }
+	  
+	  
+}
+@media only screen and (max-width: 767px) {
+.tab {
+  margin-top: -300px !important;
+	}
+.col-img-footer img {
+    background-color: #98f335e8;
+	font-size:10px !important;
+	}
+.img-fluid{
+		padding:3px !important;
+}
+}
+@media only screen and (max-width: 715px) {
+.logo-1-1 img{
+  width:100%!important;
+}
+.col-img-footer img{
+	margin-bottom:5px;
+	background-color:gray;
+}
+.navbar-dark .navbar-toggler {
+    position: absolute !important;
+    top: 10px !important;
+    right: 21px !important;
+}
+
+
+.logo-1-1 img {
+    max-width: 75%;
+    padding: 0px;
+    margin: 0px;
+}
+}
+
+
+ 

@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+font-family: 'Rokkitt', serif;
+}
+.nv-bg{
+	background-color:#fdfbf1bf;	
+}
+.navbar-dark .navbar-toggler {
+   background-color:#989898;
+}
+html {
+  scroll-behavior: smooth;
+}
+ .Join{
+	 color:navy;
+	 font-size:25px;
+	 font-weight:bold;
+	 margin-top:10px;
+	 }
+.logo-1-1 img{
+	max-width:60%;
+	padding:10px;
+	}
+
+.btn-sub{
+ text-align:center;
+ padding:10px;
+}
+    .btn-sub button {
+   color: #5443549e;
+    border-color: #e0e7ff;
+    background-color: #f3f7f1;
+}
+	.nav-item a{
+	color:#011C38 !important;
+	font-weight:bold;
+}
+.about{
+	text-align:center;
+	font-size:30px;
+	color:#000065;
+	font-weight:bold;	
+	}
+	.Campus{
+		text-align:center;
+	font-size:30px;
+	color:#000065;
+	font-weight:bold;	
+	}
+	
+	.Admissions{
+	text-align:center;
+	font-size:30px;
+	color:#000065;
+	font-weight:bold;	
+	}
+	.col-img-admission img{
+		width:100%;
+	}
+	.placement{
+		text-align:center;
+	font-size:30px;
+	color:white;
+	font-weight:bold;
+	}
+	
+	.Faculty{
+		text-align:center;
+	font-size:30px;
+	color:#000065;
+	font-weight:bold;
+	}
+	.Recruiters{
+		text-align:center;
+	font-size:30px;
+	color:#000065;
+	font-weight:bold
+	}
+	
+
+
+/*------------------------------------------------Media Queries------------------------------------------*/
+
+@media only screen and (max-width: 600px) {
+ {
+    display: none;
+  }
+ .navbar-dark .navbar-toggler{
+    position: absolute !important;
+    top: 15px !important;
+    right: 21px !important;
+}
+.logo-1-1 img {
+    max-width: 55%;
+    padding: 0px;
+    margin: 0px;
+}
+.Join{
+	text-align:center;
+	font-size:20px;
+}
+.about{
+font-size:20px;	
+}
+.Campus{
+font-size:20px;	
+}
+.Admissions{
+font-size:20px;	
+	
+}
+.placement{
+	font-size:20px;	
+
+}
+.Recruiters{
+	font-size:20px;		
+}
+.col-ap{
+	
+}
+}
+

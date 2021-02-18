@@ -1,0 +1,197 @@
+*{
+  padding:0px;
+  margin:0px;
+ }
+ 
+.nav-item a{
+	color:black !important;
+}
+
+
+.w-100{
+	width:100% !important;
+}
+
+
+.d-block{
+	display:block !important;
+}
+
+
+.a,.b,.c,.d{
+	
+	word-break:break-all;
+	
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul a:hover{
+	background-color:blue lighten-1;
+
+
+}
+
+
+.navbar-dark .navbar-toggler {
+    color: #1d2124; 
+    border-color: black; 
+}
+
+
+
+
+
+
+
+.navbar-collapse{
+	
+float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+  
+}
+
+.navbar-collapse .active{
+	background-color:grey;
+	color:white;
+}
+.navbar-collapse {
+  overflow: hidden;
+@
+}
+.navbar-collapse a:hover {
+  background-color: #ddd;
+  
+} 
+ .navbar-collapse.responsive a{
+	    float:none;
+		display:block;
+		text-align:left;
+	}
+/*----------media query-------*/
+
+@media screen and (max-width: 1045px) {
+  .nav-item a{
+    font-size:10px;
+  }
+}
+
+
+ @media screen and (max-width:505px){
+	
+	.logo{
+		width:300px;
+	}
+	.navbar-toggler{
+		width:50px;
+		height:50px;
+		
+	}
+	
+}
+
+
+@media screen and (max-width:403px){
+	.logo{
+		width:200px;
+	}
+	
+}
+
+
+@media screen and (max-width:765px){
+	
+
+	.col-join h2{
+	font-size:20px !important;
+	text-align:center;
+	padding:10px;
+	}
+	
+}
+
+
+
+@media screen and (max-width:765px){
+	
+
+	.col-about h3{
+	font-size:20px !important;
+	text-align:center;
+	padding:px;
+	}
+	
+}
+@media screen and (max-width:765px){
+	
+
+	.col-campus h3{
+	font-size:20px !important;
+	text-align:center;
+	padding:px;
+	}
+	
+}
+
+@media screen and (max-width:765px){
+	
+
+	.col-admission h3{
+	font-size:20px !important;
+	text-align:center;
+	padding:px;
+	}
+	
+}
+
+@media screen and (max-width:765px){
+	
+
+	.col-placement h3{
+	font-size:20px !important;
+	text-align:center;
+	padding:px;
+	}
+	
+}
+@media screen and (max-width:765px){
+	
+
+	.col-recruiter h3{
+	font-size:20px !important;
+	text-align:center;
+	padding:px;
+	}
+	.d{
+		font-size:15px;
+	}
+	
+}
+@media screen and (max-width:765px){
+	.btn-sub{
+		padding:10px;
+	}
+}
+
+
+@media screen and (max-width:765px)
+{
+	.center{
+		width:100% !important;
+	}
+}

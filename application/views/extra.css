@@ -1,0 +1,496 @@
+.bold
+{
+	font-weight: bold;
+}
+.color-white
+{
+	color: #fff;
+}
+.color-gray
+{
+	color: #999;
+}
+.color-orange
+{
+	color: #FF7A02!important;
+}
+.orange-on-hover:hover
+{
+	color:#FF7A02;
+}
+.a-teg-color
+{
+	color:#337ab7;
+}
+.bg-orange
+{
+	background: #FF7A02;
+}
+.bg-white
+{
+	background: #ffffff;
+}
+.justify
+{
+	text-align: justify;
+}
+.text-right
+{
+	text-align: right;
+}
+.text-center
+{
+	text-align: center;
+}
+.no-border
+{
+	border:none;
+}
+.flex
+{
+	display: flex;
+}
+.w-100
+{
+	width: 100%;
+}
+.pd-0
+{
+	padding: 0;
+}
+.pd-5
+{
+	padding: 5px;
+}
+.pd-10
+{
+	padding: 10px;
+}
+.pd-15
+{
+	padding: 15px;
+}
+
+.mg-0
+{
+	margin: 0;
+}
+
+.mg-t-5
+{
+	margin-top: 5px;
+}
+.mg-10
+{
+	margin: 10px;
+}
+.mg-t-10
+{
+	margin-top: 10ppx;
+}
+.mg-t-25
+{
+	margin-top: 25px;
+}
+.mg-t-40
+{
+	margin-top: 40px;
+}
+
+.height-400
+{
+	height: 400px;
+}
+.height-250
+{
+	height: 250px;
+}
+.center
+{
+	text-align: center;
+}
+.right
+{
+	text-align: right;
+}
+.left
+{
+	text-align: left;
+}
+.inline
+{
+	display: inline;
+}
+.inline-block
+{
+	display: inline-block;
+}
+.mg-0
+{
+	margin: 0;
+}
+.mg-5
+{
+	margin: 5px;
+}
+.fz-12
+{
+	font-size: 12px;
+}
+.fz-14
+{
+	font-size: 14px;
+}
+.fz-15
+{
+	font-size: 15px!important;
+}
+.fz-17
+{
+	font-size: 17px;
+}
+
+.fz-18
+{
+	font-size: 15px;
+}
+.fz-22
+{
+	font-size: 22px;
+}
+.fz-25
+{
+	font-size: 25px;
+}
+.br-4
+{
+	border-radius: 4px;
+}
+.b1ef
+{
+	border:1px solid #EFEFEF;
+}
+.b1e6
+{
+	border: 1px solid #e6e6e6;
+}
+
+.facilities .owl-next
+{
+	position: absolute!important;
+	top: 30%!important;
+	right:0!important;
+	background: #000!important;
+}
+.facilities .owl-prev
+{
+	position: absolute!important;
+	top: 30%!important;
+	left:0!important;
+	background: #000!important;
+}
+
+.facilities
+
+{
+	padding: 0px 20px 0px 20px;
+}
+
+
+.options .col-md-2
+{
+	cursor: pointer;
+
+}
+
+
+
+
+  .heading-title 
+  {
+  	text-transform: uppercase;
+  }
+
+
+
+
+.options .col-md-2 p
+{
+	font-size: 13px;
+	font-weight: bold;
+	margin: 5px;
+	
+}
+
+
+	.desktop-version
+	{
+		display: block!important;
+	}
+	.mobile-version
+	{
+      display: none!important;
+	}
+
+  .Categories-owl .categorybox
+  {
+  	margin-top: 10px;
+  }
+
+.menu ul li
+{
+	display: inline-block;
+	padding: 15px;
+	padding-top: 25px;
+
+}
+.menu ul 
+{
+	text-align: right;
+	margin: 0;
+}
+
+.menu ul li a
+{
+	text-decoration: none;
+	color: #5B6677;
+
+}
+
+
+.exams
+{
+	position: fixed;
+	z-index: 999;
+	background: #fff;
+	border: 1px solid #e6e6e6;
+	padding: 25px 15px 25px 15px;
+	width: 100%;
+	top: 60px;
+	border-radius: 4px;
+
+}
+.management
+{
+	position: fixed;
+	z-index: 999;
+	background: #fff;
+	border: 1px solid #e6e6e6;
+	padding: 25px 15px 25px 15px;
+	width: 100%;
+	top: 60px;
+	border-radius: 4px;
+
+}
+.Engineering
+{
+	position: fixed;
+	z-index: 999;
+	background: #fff;
+	border: 1px solid #e6e6e6;
+	padding: 25px 15px 25px 15px;
+	width: 100%;
+	top: 60px;
+	border-radius: 4px;
+
+}
+
+.commerce
+{
+	position: fixed;
+	z-index: 999;
+	background: #fff;
+	border: 1px solid #e6e6e6;
+	padding: 25px 15px 25px 15px;
+	width: 100%;
+	top: 60px;
+	border-radius: 4px;
+}
+.medical
+{
+	position: fixed;
+	z-index: 999;
+	background: #fff;
+	border: 1px solid #e6e6e6;
+	padding: 25px 15px 25px 15px;
+	width: 100%;
+	top: 60px;
+	border-radius: 4px;
+}
+.exam-menu ul li
+{
+	padding: 5px;
+}
+
+.exam-menu ul li a
+{
+  color:#5B6677;
+  text-decoration: none;
+  font-size: 12px;
+}
+.important-exam
+{
+	padding: 25px 0;
+	text-align: center;
+	border: 1px solid rgba(0,0,0,.1);
+}
+.important-exam a
+{
+	text-decoration: none;
+	color: rgba(0,0,0,.8);
+}
+.important-exam img
+{
+	max-width: 70px;
+}
+.exam-top-imgs .col-md-3 , .exam-top-imgs .col-md-6
+{
+	padding-left: 0;
+	padding-right: 0;
+}
+.exam-top-imgs
+{
+	margin-top:5em;
+}
+.title
+{
+   position: absolute;
+   width: 100%;
+    bottom: 0px;
+    color: #fff;	
+}
+
+.title a
+{
+	text-decoration: none;
+	color: #fff;
+}
+
+
+.title a:hover
+{
+	text-decoration: underline;
+}
+.college-detail-info-btn i 
+{
+	margin-right: 1em;
+}
+.banner-slider .item  img
+{
+	min-height: 800px;
+}
+
+.feature-service .inner-col-md-3
+{
+	box-shadow: 0 0 10px #000000;
+}
+.listService .inner-col-md-3
+{
+	box-shadow: 0 0 10px #000000;
+
+}
+
+
+.view-btn
+{
+	margin-bottom: 30px;
+}
+
+.btn-1 {
+  background-image: 
+}
+
+
+.btn-1:hover {
+  background-position: right center;
+}
+
+.view-btn a
+{
+	background: #ff7a02;
+	transition:1s;
+}
+.view-btn a:hover
+{
+/*background: linear-gradient(329deg, #ff7a02, #e6e6e6);*/
+
+transform: scale(1.1);
+}
+
+@media (min-width: 768px)
+{
+
+.modal-dialog {
+    width: 80%!important;
+
+}
+}
+.modal-footer
+{
+	border: none!important;
+}
+
+.btn-info 
+{
+	background: #007075!important;
+}
+
+.btn-primary
+{
+
+background:#FF7A02!important;
+border: 1px solid silver;
+color: #fff!important;
+
+
+}
+
+.college-detail-info-btn button:hover
+{
+	text-decoration: underline;
+}
+
+.inner-popular
+{
+	border: 1px solid #e8e8e8;
+	margin-bottom:2em;
+}
+.inner-popular h5
+{
+	font-size:1em;
+}
+.inner-popular img
+{
+	width:100%;
+}
+
+
+
+
+  /* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance:textfield;
+}
+
+
+.main-application-section a
+{
+	text-decoration: none;
+	color:#000;
+}
+.inner-application
+{
+    transition: 1s;
+}
+.inner-application:hover
+{
+	background: #fff;
+	border-radius: 4px;
+}

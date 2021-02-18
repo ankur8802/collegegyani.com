@@ -1,0 +1,272 @@
+*{
+    margin: 0px;
+    padding: 0px;
+	font-family: 'Gupter', serif;
+}
+     body
+	 {
+		 overflow-x:hidden;
+	 }
+	 html {
+  scroll-behavior: smooth;
+}
+     .scrollToLink{
+   	 color:black;
+	 font-weight:bold;
+	 padding:10px;
+     }
+     .scrollToLink a{
+      color:black!important;
+	  font-size:20px;
+      }
+     .col-blank{
+      padding:0px;
+      margin:0px;	
+      }
+        .About{
+    color: blue;
+    font-weight: bold;
+    padding: 34px 0 0px;
+		}
+		.form-margin{
+			margin-top:-400px !important;
+		}
+		.form-inq{
+	padding: 0px;
+    margin: 0px;
+    margin-top: 0px;
+    line-height: 15px;
+	
+
+		}
+	.form-group {
+    margin-bottom: 3.5px !important;
+}
+.form-check-input {
+   margin-top: 0.0rem !important;
+   }
+form-control {
+    
+    height:35px !important;
+   
+}
+	col-form-resgt{
+		margin-top:-490px;
+		z-index:999;
+		line-height:10px;
+	}
+	form-group {
+    margin-bottom: 0.2rem;
+}
+col-enquiry h2 {
+    font-size: 2rem;
+    color: #4340dcf7;
+    font-weight: bold;
+	text-align:center;
+}
+faiza-new-form{
+	 margin-top:-420px !important;
+	 
+}
+	
+		
+		
+		
+    .col-txt2 p{
+    word-break: break-all;
+               }
+			   .col-crtxt{
+    word-break: break-all;
+    padding: 0px;
+    color: #ffffff;
+    font-size: 17px;
+    margin-left: 0px;
+	}
+	.col-bmt-offer p{
+		    word-break: break-all;
+	}
+	.col-bmt-offer p3{
+		    word-break: break-all;
+	}
+ /*-------------------------------campus------------------------------------------*/
+	.Campus{
+    color: #ffffff;
+    margin-left: 0px!important;
+	margin-bottom:15px;
+	font-weight:bold;   
+	}
+	.col-img-admission img{
+		max-width:100%;
+	}
+	.Admissions{
+		color:blue;
+		font-weight:bold;
+	}
+	.p2{
+    color: blue;
+    font-weight: bold;
+	}
+	.placement{
+    color: #ffffff;
+    margin-left: 0px!important;
+	margin-bottom:15px;
+	font-weight:bold; 
+	}
+	.col-Centrer{
+    word-break: break-all;
+	padding: 0px;
+    color: #ffffff;
+    font-size: 17px;
+    margin-left: 0px;
+	}
+	.col-placement{'
+	padding:30px;
+    color:#ffffff;
+    font-size:17px;
+	}
+	.col-crl-img1 img{
+		max-width:100%;
+	}
+	.col-crl-img2 img{
+		max-width:100%;
+	}
+	.Testimonials{
+    color:#0860B4;
+    margin-left:-10px!important;
+    padding:10px;
+	font-weight:bold;
+	}
+	.col-crtex p{
+	    word-break: break-all;
+		color:black;  
+		background-color:#ffffff8a;
+		margin-left:-200px;
+		padding:20px;
+
+	}
+	.col-crtex{
+		padding-top:30px;
+		}
+	.col-img-footer img{
+    background-color:#f1f1f1;
+   max-width:100%;
+   padding:15px 5px 15px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+	}
+	
+	.Recruiters{  
+	color: #ffffff;
+    margin-left: 0px!important;
+	margin-bottom:15px;
+	font-weight:bold; 
+	text-align:center;
+	}
+	.col-ftr{
+		padding:0px;
+		margin:0px;
+	}
+	.col-ftr-regst{
+		padding:10px;
+		background-color:#052b442b;
+	}
+	.col-footer-sec h5{
+		color:white;
+		font-weight:bold;
+	}
+	.col-footer-sec ul li{
+		color:#ebf9ead6;
+		font-size:16px;
+		padding:0px;
+		margin:0px;
+	}
+
+	.btn-theme{
+		background-color:red!important;
+	}
+	
+	.col-ftr li{
+		list-style: none;
+}
+	
+	
+	/*------------------------------------------------MEDIA-QUARY------------------------------------------*/
+		/*--------------------------------------------MEDIA-QUARY---------------------------------------*/
+
+	
+/*----------------------------------------------1200---------------------------------------------------------------------*/
+
+ @media only screen and (max-width: 1200px) {
+ .col-crtex p {
+    margin-left: -127px;
+}
+	}
+/*----------------------------------------------1130---------------------------------------------------------------------*/
+
+ @media only screen and (max-width: 1120px) {
+.form-margin{
+			margin-top:-350px !important;
+		}
+
+
+ 
+ }
+	
+	
+/*--------------------------------------------992------------------------------------------------------------------------*/
+
+ @media only screen and (max-width: 991px) {
+ .col-crtex p {
+    margin-left: -49px;
+	padding:10px;
+}
+
+.form-margin{
+			margin-top:0px !important;
+		}
+faiza-new-form{
+	 margin-top:0px !important;
+	 padding:0px;
+	 
+	 }
+	 col-enquiry{
+		
+		 right:0px!important;
+	 }
+
+
+	}
+	
+/*--------------------------------------------768------------------------------------------------------------------------*/
+
+ @media only screen and (max-width: 767px) {
+ .col-crtex p {
+       margin-left: 34px;
+    font-size: 12px;
+}
+
+	}
+/*------------------------------------------------576----------------------------------------------------------*/
+
+ @media only screen and (max-width: 575px) {
+ .col-crtex p {
+       margin-left: 17px;
+    font-size: 16px;
+    margin-top: -26px;
+  }
+  .col-experience{
+	  text-align:center;
+  }
+
+.Testimonials {
+    text-align: center;
+}
+.col-img-footer img {
+	margin-bottom:5px;
+	
+}
+  
+}
+		
+
+

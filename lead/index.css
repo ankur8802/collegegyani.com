@@ -1,0 +1,278 @@
+*{
+    margin: 0px;
+    padding: 0px;
+font-family: 'Source Serif Pro', serif;
+}
+  html {
+  scroll-behavior: smooth;
+}
+
+body
+{
+	overflow-x:hidden;
+}
+     .scrollToLink{
+   	 color:black;
+	 font-weight:bold;
+	 padding:10px;
+     }
+     .scrollToLink a{
+      color:#38387d!important;
+	  font-size:14px 0px;
+      }
+	  .paragraph{
+		  font-size:15px;
+	  }
+	  .col-abt-img{
+		  padding:px;
+		  margin:px;
+		  width:100%;
+  background-image: url("images/img2.png"); /* The image used */
+  height: 70vh; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+	  }
+	  .col-img{
+		background-image: url("images/award.jpg"); /* The image used */
+  height: 80vh; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */  
+	  }
+	  
+	  
+	  .col-txt2 p{
+		    word-break: break-all;
+			font-size
+		  }
+
+		  .col-About h3{
+			   font-weight:bold !important;
+			  font-size:30px !important;
+			  color:#0b104a !important;
+			  text-align:center;
+			 }
+		  .Institute{
+			 font-weight:bold;
+			  font-size:16px;
+			  color:#031e23;
+			   word-break: keep-all;
+			 }
+			 .col-Achievements h3{
+			   font-weight:bold !important;
+			  font-size:30px !important;
+			  color:#0b104a !important;
+			  text-align:center;
+			 }
+		  .award{
+			  font-weight:bold;
+			  font-size:20px;
+			  color:#460C7B;
+			    word-break: keep-all;
+			 }
+			 
+		  .col-txt1-offers h3{
+			  font-weight:bold;
+			  font-size:18px;
+			  color:white;
+		  }
+	       .col-txt2-offers h3{
+			  font-weight:bold;
+			  font-size:18px;
+			  color:white;
+		  }
+		  
+		  .col-txt1-offers li{ 
+		   word-break: keep-all;
+		   }
+		   .col-txt1-offers li {
+    font-size: 12px;
+    color: #fff2f2b0;
+}
+.col-txt2-offers li{
+    font-size: 12px;
+    color: #fff2f2b0;
+}
+		   
+	  
+	  
+	  
+	  
+	  
+	  .col-PGDM{
+	  background-color: #87885b54;
+       margin: 21px 22px 21px;
+      padding: 22px 0px 22px;
+	  text-align:center;
+	}
+	.service-one__title span{
+		color:#330a0afa;
+		font-size:15px;
+		
+	}
+	.service-one__title{
+		font-size:22px;
+		font-weight:bold;
+		color:#460c7b;
+	}
+	.themecolor{
+		color:#0b104a;
+	}
+	.aicte{
+		font-size:15px;
+		color:navy;
+		font-weight:bold;
+	}
+	
+	.form-group {
+    margin-bottom: 0.2rem;
+}
+.col-enquiry h2 {
+    font-size: 2rem;
+    color: #4340dcf7;
+    font-weight: bold;
+	text-align:center;
+}
+.faiza-new-form{
+	 margin-top:-400px !important;
+}
+.col-nse{
+padding:0px;
+}
+.col-txt1-offers li{
+	font-size:12px;
+}
+.col-txt2-offers li{
+font-size:12px;	
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1326px) {
+
+.col-txt2{
+	font-size:13px;
+	font-weight:bold;
+}
+ }
+.col-txt1{
+	font-size:13px;
+	font-weight:bold;
+}
+
+
+@media only screen and (max-width: 1245px) {
+ .faiza-new-form{
+	 margin-top:-367px !important;
+	 padding:0px;
+}
+ }
+ @media only screen and (max-width: 1150px) {
+ .faiza-new-form{
+	 margin-top:-340px !important;
+	 padding:0px;
+}
+ }
+
+
+
+ @media only screen and (max-width: 1053px) {
+ .faiza-new-form{
+	 margin-top:-324px !important;
+	 padding:0px;
+}
+.col-enquiry h2{
+	font-size:20px;
+ }
+ }
+ @media only screen and (max-width: 1025px) {
+.col-PGDM {
+    background-color: #87885b54;
+    margin: 19px 11px 14px;
+    padding: 18px 0px 2px;
+}
+.service-one__title span{
+		font-size:12px;	
+	}
+	.service-one__title{
+		font-size:18px;
+	}
+	}
+
+ 
+ @media only screen and (max-width: 1000px) {
+ .faiza-new-form{
+	 margin-top:-324px !important;
+	 padding:0px;
+}
+.btn-12 p {
+	margin-bottom:0px !important;
+}
+ }
+ @media only screen and (max-width: 991px) {
+	 .faiza-new-form{
+	 margin-top:0px !important;
+	 padding:0px;
+	 
+	 }
+	 
+	 .col-enquiry{
+		
+		 right:0px!important;
+	 }
+ }
+  
+ 
+  @media only screen and (max-width: 920px) {
+  .scrollToLink{
+   	 
+	 padding:0px;
+     }
+     .scrollToLink a{
+	  font-size:10px;
+	  padding:5px;
+      }
+	  .logo-1-1 img{
+		  width:100%;
+	  }
+	  
+  }
+ 
+   @media only screen and (max-width: 797px) {
+.col-PGDM {
+    background-color: #87885b54;
+    margin: 19px 11px 14px;
+    padding: 18px 0px 2px;
+}
+.service-one__title span{
+		font-size:8px;	
+	}
+	.service-one__title{
+		font-size:15px;
+	}
+
+ }
+  @media only screen and (max-width: 575px) {
+.service-one__title span{
+		font-size:20px;	
+	}
+	.service-one__title{
+		font-size:20px;
+	}
+
+ }
+   @media only screen and (max-width: 538px) {
+.logo-1-1 img{
+ width:100%;
+}
+   }
+ 
+ 
+ 
+ 
+	
+	

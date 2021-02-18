@@ -1,0 +1,411 @@
+*{
+    margin: 0px;
+    padding: 0px;
+	font-family: 'Arapey', serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.nv-bg{
+ background-image: url("images/nav logo.png")!important;
+  background-position: center;
+  background-color:#1c2e51;
+ }
+ .Join{
+	 color:#fff3f3;
+	 font-size:30px;
+	 }
+.logo-1-1 img{
+	max-width:60%;
+	padding:10px;
+	}
+.input-group input{
+	background-color:#1B334C;
+	border:0px;
+}
+.btn-sub{
+  float:right;
+}
+    .btn-sub button {
+    color: #f51005e0;
+    border-color: #0e1d54;
+	}
+ .input-group{
+margin:5px !important;
+}
+
+ .col-spc{
+	 padding:0px;
+ }
+ /*-------------------color---------------------------*/
+.col-color{
+	padding:0px;
+	 background-color:#1C2E51;
+	 height:331px;
+	}
+	
+	.course-box2{
+		margin-top:100px;
+		text-align:center;
+	}
+	.Post{
+	 font-weight:bold;
+	 color:white;
+ }
+  .course-box2 span{
+	  color:white;
+ }
+  /*-------------------image---------------------------*/
+
+ .course-box{
+	 color:white;
+	 text-align:center;
+	 margin-top:-228px;
+	 }
+	 .Graduate{
+		  font-weight:bold;
+	 }
+.img img{
+	width:100%;
+	height:auto;
+}
+ 
+ 
+ .admission img{
+	 max-width:100%;
+	 height:400px;
+	 padding:0px!important;
+ }
+ .Recruiters{
+text-align:center;
+color:navy;
+font-weight:bold;	
+font-size:20px; 
+ }
+ .admission h3{
+	 font-size:35px;
+	 margin-top:-400px;
+	 color:white;
+	 font-weight:bold;
+	 padding-top:40px;
+	 margin-left:30px;
+ }
+ .admission ul{
+	 color:white;
+	 font-size:18px;
+	 padding:0px;
+	 margin-left:30px;
+ }
+ .admission p{
+	 margin-left:30px;
+	 color:white;
+	 }
+	 .btn1{
+    color: #da8989;
+    text-decoration: none;
+    background-color: transparent;
+    padding: 16px 18px 21px;
+    background-color: #04758e85;
+    margin-left: 18px;
+}
+
+ .JIMS{
+	 color:#0401a9;
+	 font-weight:bold;
+	 font-size:35px;
+	 text-align:center;
+	}
+	.col-counter h6{
+		color:#5d575794;text-align:center;
+		font-weight:bold;
+	}
+
+.count {
+  height: 10px;
+display: flex;
+  justify-content: center;
+text-align:center;
+  color: #d01c13;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: verdana;
+margin: 30px;
+  text-shadow: 1px 1px black;
+  -webkit-box-shadow: 0px 0px 72px -9px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 72px -9px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 72px -9px rgba(0,0,0,0.75);
+}
+.about-company{
+	 background-image: url("images/about-jims.jpg")!important;
+  background-position: center;
+}
+.About{
+	color:white;
+	font-weight:bold;
+	text-align:center;
+	margin-top:50px;
+}
+.text-Jagan{
+color:white;
+font-size:20px;
+margin-top:30px;	
+}
+.Life{
+	text-align:center;
+	color:navy;
+	font-weight:bold;
+	padding:20px;
+}
+.col-img4 img{
+	max-width:100%!important;
+	padding:3px;
+	}
+	. col-img4{
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+	padding:0px!important;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+ background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+ }
+
+.col-img4:hover .overlay {
+  opacity:0.5;
+  width:100%;
+
+}
+.col-img4
+{
+	padding:0!important;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.ALUMNI{
+	color:navy;
+	font-weight:bold;
+	text-align:center;
+}
+.col-Corporate-name h3{
+		color:#ffcfd1;
+	font-weight:bold;
+ font-size:20px;
+}
+.rejeev{
+	color:#ffcfd1;
+	font-weight:bold;
+ font-size:20px;	
+}
+.col-Corporate-name h4{
+color:#f1f1f1;
+	font-weight:bold;
+		font-size:18px;		
+}
+
+.col-Corporate-name p{
+color:#f3c9e2ad;
+	font-size:15px;
+	line-height:15px;	
+}
+
+.col-Corporate-name{
+margin-top:30px;	
+}
+
+.col-name h4{
+	color:red;
+	font-weight:bold;
+	
+	font-size:20px;
+}
+.col-name h5{
+	color:#1e2f018c;
+	font-weight:bold;
+	
+	font-size:18px;
+}
+.col-name p{
+	color:gray;
+	
+	font-size:15px;
+	line-height:15px;
+}
+.col-name{
+	margin-top:30px;
+	padding-right:50px;
+}
+.Corporate{
+	text-align:center;
+	color:white;
+	font-weight:bold;
+	padding:25px;
+
+}
+
+
+
+
+/*------------------------------------------------Media Queries------------------------------------------*/
+
+
+@media only screen and (max-width: 1200px) {
+ .admission img {
+    max-width: 100%;
+    height: 339px;
+    padding: 0px!important;
+}
+.admission h3 {
+    font-size: 32px;
+    margin-top: -362px;
+    color: white;
+    font-weight: bold;
+    padding-top: 30px;
+    margin-left: 30px;
+}
+.col-color{
+	 height:279px;
+	}
+.course-box2 {
+    margin-top: 49px;
+}
+
+}
+@media only screen and (max-width: 1018px) {
+	.col-color {
+    height: 274px;
+		
+	}
+	}
+
+@media only screen and (max-width: 992px) {
+	
+	.admission h3 {
+    font-size: 20px;
+    margin-top: -286px;
+    color: #ff2626;
+    font-weight: bold;
+    /* padding-top: 44px; */
+    margin-left: 29px;
+}
+	.admission ul {
+    color: white;
+    font-size: 15px;
+    padding: 0px;
+    margin-left: 30px;
+    line-height: 15px;
+}
+	
+.admission img {
+    height: 254px;
+}
+.btn-success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+    margin-top: -32px;
+}
+
+.course-box {
+    margin-top: -170px;
+}
+.course-box2 {
+    margin-top: 35px;
+}
+.col-color {
+    height: 209px;
+}
+
+}
+
+@media only screen and (max-width: 767px) {
+	.course-box2{
+		margin-top:50px;	
+}
+.navbar-icon{
+	    position: absolute;
+    top: 39px;
+    right: 21px;
+	padding:10px;
+	
+}
+}
+.course-box
+{
+	margin-top:-50px;
+}
+.img img{
+	height:500px;
+}
+.img h3{
+	margin-top:-150px !important;
+}
+course-box{
+margin-top:-240px
+}
+ 
+ .admission img{
+	 max-width:100%;
+	 height:400px;
+	 padding:0px!important;
+ }
+ .admission h3{
+	 font-size:20px;
+	 margin-top:-350px;
+	
+ }
+ .admission ul{
+	 font-size:15px;
+	
+ }
+ .JIMS {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 79px;
+}
+.About{
+	font-size:20px;
+	
+}
+.text-Jagan{
+	font-size:15px;
+}
+.Life{
+	font-size:20px;
+	
+}
+.ALUMNI{
+font-size:20px;	
+}
+.Corporate{
+font-size:20px !important	
+}
+
+
+
+}
